@@ -1,4 +1,5 @@
 package org.example;
+import it.kamaladafrica.codicefiscale.CodiceFiscale;
 
 public class Utente {
     private int ID;
@@ -13,6 +14,10 @@ public class Utente {
         this.email = email;
         this.codiceFiscale = codiceFiscale;
         this.CreditoInEuro = CreditoInEuro;
+    }
+
+    public String getCodiceFiscale(){
+        return codiceFiscale;
     }
 
 }
